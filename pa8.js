@@ -92,7 +92,7 @@ function clickSelectedItem() {
 // this function responds to user key presses
 // you'll rewrite this to control your interface using some number of keys
 $(document).keypress(function(event) {
-	if (event.key == "a") {
+	if (event.keyCode == "32") {
 		selectNext()
 			
 	} if (event.keyCode == "13") {
