@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="pa8.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<p>Include information here about your app.</p>
+			<ul>
+				<li><b>Instructions for using the app</b></li>
+				This uses a 2-key interface.  To curse through the buttons, press the spacebar.  To select an item, press the enter button.  
+				<li><b>Test results</b></li>
+				For the tests, I used the following equations: <br>
+				754 / 28 - 2 <br>
+				3 + 61 - 0 <br>
+				99 * 44 / 2 + 1 <br>
+				These are the equations that I chose because they require pressing all the buttons, and require you to go back around again with the cursor (the 2-key has no goBack button).  <br>
+				I ran this test with hand vs. elbow vs. foot.  I ran each body part 3 times.  The average times were: <br>
+				hand: 1 min 22 sec.  average: 2 mistakes <br>
+				elbow: 1 min 47 sec.  average: 4 mistakes <br>
+				foot: 2 min 10 sec.  average: 4 mistakes <br>
+				From these results, I have concluded that the hand had the best results.  This is most likely due to the fact that I have more control over my hand compared to my foot and elbow. <br>
+				However, some people may have better control over other parts of the body, so it was good to test to make sure it works with other body parts. <br>
+				The most common mistake was using the cursor and scrolling past the number you needed to select, because then you had to go through and cursor over everything again before it gets back to the item you missed.
+				
+				
+				<li><b>Anything else you have tried out</b></li>
+				At first, I was using the keys "a" for scroll and "b" for select.  However, I found this problematic because, with the other body parts, it was hard to select the smaller buttons. <br>
+				So, I changed the buttons to "spacebar" is scroll and "enter" is select.  Since these buttons are bigger in size, it was easier to select these buttons with my elbow and foot.  
+			</ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="pa8.js" type="text/javascript"></script>
+	</body>
+</html>
+
